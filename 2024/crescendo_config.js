@@ -83,15 +83,11 @@ var config_data = `
     },
     
     { "name": "Auto Pickup Locations",
-    "code": "apl",
-    "type": "clickable_image",
-    "filename": "2024/field_image.png",
-    "dimensions": "12 6",
-    "toggleClick": "true",
-    "clickRestriction": "onePerBox",
-    "showFlip": "true",
-    "showUndo": "true",
-    "shape": "circle 12 black red true",
+      "code": "apl",
+      "type": "clickable_image",
+      "filename": "2024/field_image.png",
+      "clickRestriction": "onePerBox",
+      "shape": "circle 5 black red true"
     }
     
   ],
