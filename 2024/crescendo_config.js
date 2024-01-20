@@ -78,7 +78,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Midfield Pickup",
-      "code": "ass",
+      "code": "ams",
       "type": "counter"
     }
   ],
