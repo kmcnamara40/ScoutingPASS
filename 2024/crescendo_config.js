@@ -76,6 +76,10 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Midfield Pickup",
+      "code": "ass",
+      "type": "counter"
     }
   ],
   "teleop": [
