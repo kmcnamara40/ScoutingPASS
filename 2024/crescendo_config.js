@@ -81,7 +81,6 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     }
-    
   ],
   "teleop": [
     { "name": "Amp Scores",
