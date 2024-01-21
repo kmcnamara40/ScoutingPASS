@@ -83,6 +83,7 @@ var config_data = `
       "filename": "2024/field_image_auto.png",
       "dimensions": "7 5",
       "clickRestriction": "onePerBox",
+      "allowableResponses": "2 4 6 9 11 13 16 18 20 25 32",
       "toggleClick": "true",
       "showFlip": "true",
       "showUndo": "true",
