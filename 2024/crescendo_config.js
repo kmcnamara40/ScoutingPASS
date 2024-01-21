@@ -80,7 +80,19 @@ var config_data = `
     { "name": "Midfield Pickup",
       "code": "ams",
       "type": "counter"
-    }
+    },
+    { "name": "Auto Pickup Location",
+      "code": "apl",
+      "gsCol": "autoPickupLocation",
+      "type": "clickable_image",
+      "filename": "2024/field_image_auto.png",
+      "dimensions": "12 6",
+      "clickRestriction": "onePerBox",
+      "toggleClick": "true",
+      "showFlip": "true",
+      "showUndo": "true",
+      "shape": "circle 12 black red true"
+    },
   ],
   "teleop": [
     { "name": "Amp Scores",
