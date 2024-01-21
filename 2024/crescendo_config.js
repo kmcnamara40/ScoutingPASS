@@ -83,7 +83,6 @@ var config_data = `
     },
     { "name": "Auto Pickup Location",
       "code": "apl",
-      "gsCol": "autoPickupLocation",
       "type": "clickable_image",
       "filename": "2024/field_image_auto.png",
       "dimensions": "12 6",
