@@ -81,7 +81,7 @@ var config_data = `
       "code": "ap",
       "type": "clickable_image",
       "filename": "2024/field_image_auto.png",
-      "dimensions": "12 6",
+      "dimensions": "7 5",
       "clickRestriction": "onePerBox",
       "toggleClick": "true",
       "showFlip": "true",
