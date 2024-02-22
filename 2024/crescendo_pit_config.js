@@ -55,6 +55,7 @@ var config_data = `
       "choices": {
         "n": "Neo<br>",
         "f": "Falcon<br>",
+        "k": "Kraken<br>",
         "c": "CIM<br>",
         "x": "Other<br>"
       },
