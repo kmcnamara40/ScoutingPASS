@@ -149,18 +149,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Defense Rating",
-      "code": "dr",
-      "type": "radio",
-      "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Speed Rating",
       "code": "sr",
       "type": "radio",
