@@ -137,13 +137,14 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
+    { "name": "Citrus Ranking",
+      "code": "cr",
       "type": "radio",
       "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
+        "1": "1st alliance member<br>",
+        "2": "2nd alliance member<br>",
+        "3": "3rd alliance member<br>",
+        "4": "4th alliance member<br>",
         "x": "Not Observed"
       },
       "defaultValue": "x"
