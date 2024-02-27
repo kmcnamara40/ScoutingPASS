@@ -137,17 +137,17 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Citrus Ranking",
+    { "name": "Citrus Ranking(discuss with your team)",
       "code": "cr",
       "type": "radio",
       "choices": {
-        "1st": "1st alliance member<br>",
+        "1st": "1st alliance member (best)<br>",
         "2nd": "2nd alliance member<br>",
         "3rd": "3rd alliance member<br>",
         "4th": "4th alliance member<br>",
-        "x": "Not Observed"
+        
       },
-      "defaultValue": "x"
+      "defaultValue": "2nd"
     },
     { "name": "Speed Rating",
       "code": "sr",
