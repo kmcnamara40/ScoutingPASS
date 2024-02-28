@@ -147,7 +147,7 @@ var config_data = `
         "4": "4th alliance member<br>",
         "x": "Not Observed"
       },
-      "defaultValue": "2nd"
+      "defaultValue": "x"
     },
     { "name": "Defense Rating",
       "code": "dr",
