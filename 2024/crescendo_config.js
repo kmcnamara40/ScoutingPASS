@@ -141,11 +141,11 @@ var config_data = `
       "code": "cr",
       "type": "radio",
       "choices": {
-        "1st": "1st alliance member (best)<br>",
-        "2nd": "2nd alliance member<br>",
-        "3rd": "3rd alliance member<br>",
-        "4th": "4th alliance member<br>",
-        
+        "1": "1st alliance member<br>",
+        "2": "2nd alliance member<br>",
+        "3": "3rd alliance member<br>",
+        "4": "4th alliance member<br>",
+        "x": "Not Observed"
       },
       "defaultValue": "2nd"
     },
