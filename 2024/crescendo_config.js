@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "dataFormat": "flwp",
+  "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
   "page_title": "Crescendo",
   "checkboxAs": "10",
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023tnkn",
+      "defaultValue": "FLWP",
       "required": "true"
     },
     { "name": "Match Level",
