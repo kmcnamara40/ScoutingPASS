@@ -99,6 +99,10 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
+    { "name": "Relayed Notes",
+    "code": "rn",
+    "type": "counter"
+    },
     { "name": "Times Amplified",
       "code": "tta",
       "type": "counter"
