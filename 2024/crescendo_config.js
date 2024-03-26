@@ -55,7 +55,18 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    
+    { "name": "Auto Start",
+    "code": "asl",
+    "type": "radio",
+    "choices": {
+      "c": "Center<br>",
+      "l": "Left<br>",
+      "r": "Right<br>",
+      "f": "Far Left<br>",
+      "t": "Far Right<br>"
+    },
+    "defaultValue": "c"
+  },
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
