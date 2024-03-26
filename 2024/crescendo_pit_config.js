@@ -9,6 +9,16 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
+    { "name": "Width",
+      "code": "wid",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { "name": "Weight",
+      "code": "wei",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Drivetrain",
       "code": "drv",
       "type": "radio",
@@ -21,12 +31,31 @@ var config_data = `
       },
       "defaultValue": "o"
     },
+    { "name": "Other Drivetrain",
+      "code": "odt",
+      "type": "text",
+      "size": 20,
+      "maxSize": 50
+    },
+    { "name": "Drivetrain Motor",
+      "code": "mot",
+      "type": "radio",
+      "choices": {
+        "n": "Neo<br>",
+        "f": "Falcon<br>",
+        "v": "Vortex<br>",
+        "k": "Kraken<br>",
+        "c": "CIM<br>",
+        "x": "Other<br>"
+      },
+      "defaultValue":"x"
+    },
     { "name": "# of Batteries",
       "code": "nob",
       "type": "number"
     },
-    { "name": "April Tag required to shoot",
-      "code": "apt",
+    { "name": "Floor pickup Notes",
+      "code": "fpu",
       "type": "bool"
     },
     { "name": "Autos",
