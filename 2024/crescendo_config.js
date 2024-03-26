@@ -55,7 +55,18 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-
+    { "name": "Auto Start Position",
+      "code": "as",
+      "type": "radio",
+      "choices": {
+        "c": "Center<br>",
+        "ls": "Left Side of Speaker <br>",
+        "rs": "Right Side of Speaker<br>",
+        "fl": "Far Left",
+        "fr": "Far Right",
+      },
+      "defaultValue": "c"
+    }
   ],
   "auton": [
     { "name": "Leave Starting Zone",
