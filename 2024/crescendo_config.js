@@ -55,17 +55,18 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
+    
     { "name": "Auto Start Position",
       "code": "as",
       "type": "radio",
       "choices": {
-        "c": "Center<br>",
         "l": "Left Side of Speaker <br>",
         "r": "Right Side of Speaker<br>",
         "e": "Far Left<br>",
         "i": "Far Right<br>",
+        "x": "Center<br>",
       },
-      "defaultValue": "c"
+      "defaultValue": "x"
     }
   ],
   "auton": [
