@@ -70,18 +70,6 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Auto Start",
-    "code": "asl",
-    "type": "radio",
-    "choices": {
-      "c": "Center<br>",
-      "l": "Left<br>",
-      "r": "Right<br>",
-      "fl": "Far left<br>",
-      "fr": "Far right<br>"
-    },
-    "defaultValue": "c"
-    },
     { "name": "Auto Pickup",
       "code": "ap",
       "type": "clickable_image",
