@@ -116,7 +116,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Relayed Notes",
-    "code": "rn",
+      "code": "rn",
     "type": "counter"
     },
     { "name": "Times Amplified",
@@ -166,6 +166,17 @@ var config_data = `
         "3": "3rd alliance member<br>",
         "4": "4th alliance member<br>",
         "x": "Not Observed"
+      },
+      "defaultValue": "x"
+    },
+    { "name": "Where did they shoot from",
+      "code": "wsf",
+      "type": "radio",
+      "choices": {
+        "s": "Against speaker<br>",
+        "a": "Away from speaker<br>",
+        "b": "Both<br>",
+        "x": "Did not score speaker"
       },
       "defaultValue": "x"
     },
