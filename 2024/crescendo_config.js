@@ -60,10 +60,10 @@ var config_data = `
       "type": "radio",
       "choices": {
         "c": "Center<br>",
-        "ls": "Left Side of Speaker <br>",
-        "rs": "Right Side of Speaker<br>",
-        "fl": "Far Left",
-        "fr": "Far Right",
+        "l": "Left Side of Speaker <br>",
+        "r": "Right Side of Speaker<br>",
+        "e": "Far Left<br>",
+        "i": "Far Right<br>",
       },
       "defaultValue": "c"
     }
