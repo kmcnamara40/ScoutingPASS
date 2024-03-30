@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024tnkn",
+      "defaultValue": "2024alhu",
       "required": "true"
     },
     { "name": "Match Level",
@@ -91,6 +91,10 @@ var config_data = `
     }
   ],
   "teleop": [
+    { "name": "Picked Up Notes",
+    "code": "pun",
+    "type": "counter"
+    },
     { "name": "Amp Scores",
       "code": "tas",
       "type": "counter"
@@ -103,26 +107,23 @@ var config_data = `
       "code": "rn",
     "type": "counter"
     },
-    { "name": "Times Amplified",
-      "code": "tta",
-      "type": "counter"
-    },
-    { "name": "Pickup From",
-      "code": "tpu",
-      "type": "radio",
-      "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
+    { "name": "Dropped Notes",
+    "code": "tdn",
+    "type": "counter"
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
-      "code": "dt",
-      "type": "timer"
+    { "name": "Time left when climb started",
+      "code": "tlc",
+      "type": "radio",
+      "choices": {
+        "th": "30-20 seconds<br>",
+        "tw": "20-10 seconds<br>",
+        "te": "Less than 10 seconds<br>",
+        "f": "Failed climb<br>",
+        "x": "Climb not attempted"
+      },
+      "defaultValue": "x"
     },
     { "name": "Final Status",
       "code": "fs",
@@ -153,13 +154,14 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Where did they shoot from",
+    { "name": "Where did they shoot from?",
       "code": "wsf",
       "type": "radio",
       "choices": {
         "s": "Against speaker<br>",
-        "a": "Away from speaker<br>",
-        "b": "Both<br>",
+        "n": "In front of starting zone line<br>",
+        "a": "Behind starting zone line <br>",
+        "b": "Any location<br>",
         "x": "Did not score speaker"
       },
       "defaultValue": "x"
@@ -194,15 +196,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Notes (>2)",
-      "code": "dn",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
