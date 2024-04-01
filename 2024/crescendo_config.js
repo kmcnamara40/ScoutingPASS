@@ -91,10 +91,6 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Picked Up Notes",
-    "code": "pun",
-    "type": "counter"
-    },
     { "name": "Amp Scores",
       "code": "tas",
       "type": "counter"
@@ -107,7 +103,7 @@ var config_data = `
       "code": "rn",
     "type": "counter"
     },
-    { "name": "Dropped Notes",
+    { "name": "Dropped/Missed Notes",
     "code": "tdn",
     "type": "counter"
     }
